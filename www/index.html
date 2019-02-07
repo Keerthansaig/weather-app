@@ -1,0 +1,65 @@
+<html><head>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    </head><body style="background-color: cornflowerblue" id="b1">
+	<!-- Status Bar -->
+	<div id="status">
+		<p></p>
+		<button class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+	</div>
+	<!-- Current Weather -->
+	<div id="current" class="wrapper">
+		<nav>
+			<button id="locateBtn">
+				<i class="fa fa-location-arrow" aria-hidden="true"></i><img src="img/loc2.jpg" id="loc1 " height="20px" width="20px">
+			</button>
+			<button id="unitBtn" data-units="f">f</button>
+		</nav>
+		<center><h1 class="location" style= "color:azure"   >DELHI</h1>
+		<h2 class="date" style="color: azure">Sunday, January 1, 2019</h2>
+	</center>	<div class="weatherIcon" >
+			<div class="sunny" >
+				<div class="inner" style="color: azure"></div>
+			</div>
+		</div>
+		<center><p class="temp" >72</p>
+		<p class="conditions" >Sunny</p></center>
+	</div>
+	<!-- Future Forecast -->
+	<div id="future" class="wrapper">
+		<div class="container">
+			<center><h3 class="day">Mon</h3></center>
+			<div class="weatherIcon">
+				<div class="partlycloudy">
+					<div class="inner"></div>
+				</div>
+			</div>
+			<center><p class="conditions" >Partly Cloudy</p>
+			<p class="tempRange" ><span class="high">64</span> | <span class="low">48</span></p></center>
+		</div>
+		<div class="container">
+			<center><h3 class="day">Tue</h3></center>
+			<div class="weatherIcon">
+				<div class="mostlycloudy">
+					<div class="inner"></div>
+				</div>
+			</div>
+			<center></centera><p class="conditions" style="color: white">Mostly Cloudy</p>
+			<p class="tempRange" ><span class="high">57</span> | <span class="low">45</span></p></center>
+		</div>
+		<div class="container">
+			<center><h3 class="day">Wed</h3></center>
+			<div class="weatherIcon">
+				<div class="rain">
+					<div class="inner"></div>
+				</div>
+			</div>
+			<center><p class="conditions" >Chance of Rain</p>
+			<p class="tempRange" ><span class="high">63</span> | <span class="low">59</span></p></center>
+		</div>
+	</div>
+        <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script type="text/javascript" src="js/index.js" ></script>
+</body>
+</html>
